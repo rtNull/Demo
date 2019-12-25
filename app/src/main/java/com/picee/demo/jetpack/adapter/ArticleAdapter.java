@@ -16,7 +16,7 @@ public class ArticleAdapter extends BaseQuickAdapter<Article, BaseViewHolder> {
 
     @Override
     protected void convert(@NonNull BaseViewHolder helper, Article item) {
-        helper.setText(R.id.tvTitle, item.getTitle());
+        helper.setText(R.id.tv, item.getTitle());
         helper.setText(R.id.tvAuthor, item.getAuthor());
         helper.setText(R.id.tvDate, item.getNiceDate());
     }

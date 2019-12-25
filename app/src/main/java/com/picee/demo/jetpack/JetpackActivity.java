@@ -3,14 +3,12 @@ package com.picee.demo.jetpack;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.picee.demo.R;
 import com.picee.demo.jetpack.adapter.ArticleAdapter;
 import com.picee.demo.jetpack.bean.Article;
